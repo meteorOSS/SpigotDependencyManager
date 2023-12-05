@@ -3,6 +3,7 @@
 允许spigot插件在线拉取依赖，而不用打包到jar里
 
 使用方法: 
+
 1. 在 `plugin.yml` 中定义依赖
 ``` yaml
 lib:
@@ -18,6 +19,7 @@ lib:
     version: '5.2.3'
 ```
 可以忽略url项，默认使用https://repo.maven.apache.org/maven2/
+
 2. 插件启动类使用 `DependencyManager.loadDependency(this);` 加载依赖
 ![image](https://github.com/meteorOSS/SpigotDependencyManager/assets/61687266/8c5de5e0-c5d0-4b5d-a3f7-ac5adaba3c25)
 
