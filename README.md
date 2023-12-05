@@ -20,7 +20,12 @@ lib:
 ```
 
 
-2. using `DependencyManager.loadDependency(this);` in onEnable()
+2. `DependencyManager.loadDependency(Plugin plugin);`
+``` java
+public void onEnable(){
+  DependencyManager.loadDependency(this);
+}
+```
 ![image](https://github.com/meteorOSS/SpigotDependencyManager/assets/61687266/8c5de5e0-c5d0-4b5d-a3f7-ac5adaba3c25)
 
 
