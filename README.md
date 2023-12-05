@@ -20,7 +20,7 @@ lib:
 插件启动类使用 `DependencyManager.loadDependency(this);` 加载依赖
 ![image](https://github.com/meteorOSS/SpigotDependencyManager/assets/61687266/8c5de5e0-c5d0-4b5d-a3f7-ac5adaba3c25)
 
-示例中可打包为一个示例bukkit插件.可能会有许多隐患(比如网络原因可能会挂起主线程过久崩溃)待解决
+拉取代码可打包为一个示例bukkit插件.可能会有许多隐患(比如网络原因可能会挂起主线程过久崩溃)待解决
 
 部分代码参考了 https://github.com/Revxrsal/PluginLib/tree/master/src/main/java/pluginlib
 
