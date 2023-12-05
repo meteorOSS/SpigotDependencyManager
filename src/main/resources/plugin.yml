@@ -1,0 +1,19 @@
+
+name: 'TestDependencyManager'
+
+main: com.test.plugin.TestPluginMain
+version: 1.0
+author: meteor
+api-version: 1.13
+
+lib:
+  httpcore5:
+    url: 'https://repo.maven.apache.org/maven2/'
+    groupId: 'org.apache.httpcomponents.core5'
+    artifactId: 'httpcore5'
+    version: '5.2.4'
+  httpclient:
+    url: 'https://repo.maven.apache.org/maven2/'
+    groupId: 'org.apache.httpcomponents.client5'
+    artifactId: 'httpclient5'
+    version: '5.2.3'
